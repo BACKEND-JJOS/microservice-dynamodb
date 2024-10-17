@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: microservice-dynamodb
+    profiles:
+        active: prod

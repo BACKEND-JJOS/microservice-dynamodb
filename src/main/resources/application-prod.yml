@@ -1,0 +1,4 @@
+aws:
+  region: ${aws.region}
+  access-key-id: ${aws.access-key-id}
+  secret-access-key: ${aws.secret-access-key}
