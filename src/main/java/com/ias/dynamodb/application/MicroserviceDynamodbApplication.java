@@ -1,9 +1,9 @@
-package com.ias.dynamodb;
+package com.ias.dynamodb.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.ias.dynamodb"})
 public class MicroserviceDynamodbApplication {
 
 	public static void main(String[] args) {
